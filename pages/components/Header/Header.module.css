@@ -1,0 +1,40 @@
+.logo {
+    float: left;
+    width: 300px;
+    height: 31px;
+}
+
+.logo span {
+    font-size: 24px;
+    color: var(--color-gray-light);
+    font-weight: 700;
+}
+
+.avatar {
+    margin-right: 15px;
+    margin-top: -10px;
+}
+
+
+.portfolioNavLayout {
+    background-color: var(--color-primary-dark);
+}
+
+.portfolioNavHeader {
+    background-color: var(--color-primary-dark);
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+}
+
+.portfolioNavMenu {
+    background-color: var(--color-primary-dark);
+    background: var(--color-primary-dark) !important;
+    justify-content: flex-end;
+    border-bottom: none;
+}
+
+.portfolioNavMenuItem svg {
+    font-size: 20px;
+    fill: var(--color-gray-light);
+}

@@ -1,0 +1,12 @@
+.banner {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+}
+
+
+.bannerButton {
+    margin: 20px 0 20px 0;
+    background-color: var(--color-primary-light);
+    border: 1px solid var(--color-primary-light);
+}
